@@ -1,1 +1,24 @@
-/* This is where I will write my CSS to design both webpages.
+/* This is where I will write my CSS to design both webpages.*/
+header {
+    text-align: center;
+}
+
+body { 
+    background-color:rgb(177, 238, 188);
+    text-align: left;
+}
+
+p {
+    text-align: center;
+    font-family: verdana;
+    font-style: italic;
+}
+
+h3 {
+    text-align: center;
+}
+
+li {
+    list-style-position: inside;
+    text-align: center;
+}
