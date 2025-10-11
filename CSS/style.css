@@ -1,15 +1,8 @@
 /* This is CSS to design both webpages.*/
-header {
-    text-align: center;
-}
-
-body { 
-    background-color:rgb(177, 238, 188);
+body {
+    background-color: rgb(177, 238, 188);
     text-align: left;
-}
-
-p {
-    text-align: center;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -37,13 +30,13 @@ li {
 }
 
 /*This is css for page 1*/
-#publix {
-    font-family: Arial;
-}
-
 .italix {
     font-family: cursive;
     font-style: italic;
+}
+
+#publix {
+    font-family: Arial;
 }
 
 .bigger {
@@ -99,37 +92,29 @@ li {
     font-weight: bolder;
 }
 
-/*This is css for my FlexBox*/
-.flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-items: stretch;
-  gap: 20px;
-}
-.flex-container > section {
-  flex: 1;
-  max-width: 500px;
-  padding: 10px;
-}
 .secs {
-  background-color: rgb(209, 247, 215);
-  padding: 12px;
-  border-radius: 12px;
-  border: 1px solid #c0eacb; /* soft green border */
+    background-color: rgb(209, 247, 215);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 @media (max-width: 600px) {
-  body {
-    font-size: 16px;
-  }
-  .flex-container {
-    flex-direction: column; /* Stack sections vertically */
-    gap: 15px;
-  }
+    body {
+        font-size: 16px;
+    }
 
-  .flex-container > section {
-    max-width: 100%; /* Allow full width on small screens */
-    padding: 15px;
-  }
+    .flex-container {
+        flex-direction: column;
+        /* Stack sections vertically */
+        gap: 15px;
+    }
+
+    .flex-container>section {
+        max-width: 100%;
+        /* Allow full width on small screens */
+        padding: 15px;
+    }
 }

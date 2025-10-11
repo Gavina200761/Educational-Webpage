@@ -14,65 +14,67 @@
 </head>
 
 <body>
-    <div class="container mt-4">
-    <header class="text-center mb-4">
-        <!--I wanted the Publix logo to be at the top of the page so I placed it before the header.-->
-        <img src="./images/Publix-logo.jpg" alt="This is an image of Publix's logo." width="120">
-        <!--Here is the main header to my webpage. Following it, there is more information about publix.-->
-        <h1 id="publix">PUBLIX SUPERMARKET</h1>
-        <p class="lead">
-            Publix is more than just a supermarket.
-            Publix is a <span id="underline" class="italix">family</span> that works to provide
-            <span class="italix">premier customer service</span> to all of it's customers.
-        </p>
-    </header>
-    <main>
-        <article>
-            <div class="row gx-4 gy-3">
-                <!--This is where I implemented an unordered list of facts about Publix's history.-->
-                <section class="col-md-6 mb-4 secs">
-                    <h2 class="topix">Publix's History</h2>
-                    <p class="bigger">Here are some fun facts about the history of Publix!</p>
-                    <ul id="history">
-                        <li>Publix was founded in 1930 by George Jenkins.</li>
-                        <li>People still call the founder Mr. George out of respect.</li>
-                        <li>Mr. George wanted all his associates to own a part of Publix,
-                            and today it is the largest employee-owned company in the US.
-                        </li>
-                        <li>Publix was one of the first grocery chains in the southeast to feature an in-store bakery.
-                        </li>
-                        <li>Publix released GreenWise as a way to focus on organic and natural food,
-                            Way before "healthy living" was trendy.
-                        </li>
-                    </ul>
-                </section>
-                <section class="col-md-6 mb-4 secs">
-                    <!--Here I implemented an ordered list of things I find valuable at Publix.-->
-                    <h2 class="topix">Publix's Culture</h2>
-                    <p class="bigger">Here is a list of what I find valuable about Publix.</p>
-                    <ol id="culture">
-                        <li>Employee Ownership</li>
-                        <li>Job Security</li>
-                        <li>Benefits (401k, Health Insurance, Tuition Reimbursement)</li>
-                        <li>BOGO Deals</li>
-                        <li>The Customer Service and overall experience shopping</li>
-                    </ol>
-                </section>
-            </div>
-        </article>
-        <!--An image of George Jenkins, founder of Publix-->
-        <div class = "founder">
-            <img src = "images/mrGeorge.jpg" alt = "This is an image of Publix's founder, Mr.George" width = "250">
-            <p class = "italix">George Jenkins, founder of Publix Supermarkets</p>
-        </div>
-        <footer>
-            <!--Here I added a link to page2.html that contains information on competitors.-->
-            <h3 class="red">Publix Competitors</h3>
-            <p class="text-center">
-                Learn more about <a href="./page2.html">stores competing with Publix</a>. WARNING, you may be disappointed.
+    <div class="container mt-4 p-4">
+        <header class="text-center mb-4">
+            <!--I wanted the Publix logo to be at the top of the page so I placed it before the header.-->
+            <img src="./images/Publix-logo.jpg" alt="This is an image of Publix's logo." class="img-fluid" width="120">
+            <!--Here is the main header to my webpage. Following it, there is more information about publix.-->
+            <h1 id="publix" class="text-uppercase text-success">PUBLIX SUPERMARKET</h1>
+            <p class="lead">
+                Publix is more than just a supermarket.
+                Publix is a <span id="underline" class="italix">family</span> that works to provide
+                <span class="italix">premier customer service</span> to all of it's customers.
             </p>
-        </footer>
-    </main>
+        </header>
+        <main>
+            <article>
+                <div class="row gx-5 gy-4 justify-content-center">
+                    <!--This is where I implemented an unordered list of facts about Publix's history.-->
+                    <section class="col-md-6 secs border shadow">
+                        <h2 class="topix text-center">Publix's History</h2>
+                        <p class="bigger text-center">Here are some fun facts about the history of Publix!</p>
+                        <ul>
+                            <li>Publix was founded in 1930 by George Jenkins.</li>
+                            <li>People still call the founder Mr. George out of respect.</li>
+                            <li>Mr. George wanted all his associates to own a part of Publix,
+                                and today it is the largest employee-owned company in the US.
+                            </li>
+                            <li>Publix was one of the first grocery chains in the southeast to feature an in-store
+                                bakery.
+                            </li>
+                            <li>Publix released GreenWise as a way to focus on organic and natural food,
+                                Way before "healthy living" was trendy.
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="col-md-6 secs border shadow">
+                        <!--Here I implemented an ordered list of things I find valuable at Publix.-->
+                        <h2 class="topix text-center">Publix's Culture</h2>
+                        <p class="bigger text-center">Here is a list of what I find valuable about Publix.</p>
+                        <ol>
+                            <li>Employee Ownership</li>
+                            <li>Job Security</li>
+                            <li>Benefits (401k, Health Insurance, Tuition Reimbursement)</li>
+                            <li>BOGO Deals</li>
+                            <li>The Customer Service and overall experience shopping</li>
+                        </ol>
+                    </section>
+                </div>
+            </article>
+            <!--An image of George Jenkins, founder of Publix-->
+            <div class="founder">
+                <img src="images/mrGeorge.jpg" alt="This is an image of Publix's founder, Mr.George" width="250">
+                <p class="fw-bold fst-italic text-center">George Jenkins, founder of Publix Supermarkets</p>
+            </div>
+            <footer>
+                <!--Here I added a link to page2.html that contains information on competitors.-->
+                <h3 class="red">Publix Competitors</h3>
+                <p class="text-center">
+                    Learn more about <a href="./page2.html">stores competing with Publix</a>. WARNING, you may be
+                    disappointed.
+                </p>
+            </footer>
+        </main>
     </div>
 </body>
 
