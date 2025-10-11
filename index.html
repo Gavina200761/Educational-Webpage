@@ -14,12 +14,13 @@
 </head>
 
 <body>
-    <header>
+    <div class="container mt-4">
+    <header class="text-center mb-4">
         <!--I wanted the Publix logo to be at the top of the page so I placed it before the header.-->
         <img src="./images/Publix-logo.jpg" alt="This is an image of Publix's logo." width="120">
         <!--Here is the main header to my webpage. Following it, there is more information about publix.-->
         <h1 id="publix">PUBLIX SUPERMARKET</h1>
-        <p class="bigger">
+        <p class="lead">
             Publix is more than just a supermarket.
             Publix is a <span id="underline" class="italix">family</span> that works to provide
             <span class="italix">premier customer service</span> to all of it's customers.
@@ -27,9 +28,9 @@
     </header>
     <main>
         <article>
-            <div class="flex-container">
+            <div class="row gx-4 gy-3">
                 <!--This is where I implemented an unordered list of facts about Publix's history.-->
-                <section class = "secs">
+                <section class="col-md-6 mb-4 secs">
                     <h2 class="topix">Publix's History</h2>
                     <p class="bigger">Here are some fun facts about the history of Publix!</p>
                     <ul id="history">
@@ -45,7 +46,7 @@
                         </li>
                     </ul>
                 </section>
-                <section class = "secs">
+                <section class="col-md-6 mb-4 secs">
                     <!--Here I implemented an ordered list of things I find valuable at Publix.-->
                     <h2 class="topix">Publix's Culture</h2>
                     <p class="bigger">Here is a list of what I find valuable about Publix.</p>
@@ -66,12 +67,13 @@
         </div>
         <footer>
             <!--Here I added a link to page2.html that contains information on competitors.-->
-            <h3 id="red">Publix Competitors</h3>
-            <p>
+            <h3 class="red">Publix Competitors</h3>
+            <p class="text-center">
                 Learn more about <a href="./page2.html">stores competing with Publix</a>. WARNING, you may be disappointed.
             </p>
         </footer>
     </main>
+    </div>
 </body>
 
 </html>

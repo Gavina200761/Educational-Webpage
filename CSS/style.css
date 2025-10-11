@@ -61,7 +61,7 @@ li {
     text-decoration: underline;
 }
 
-#red {
+.red {
     color: rgb(139, 0, 0);
 }
 
@@ -78,19 +78,19 @@ li {
 }
 
 /*These are colors for each competitor on page2*/
-#orange {
+.orange {
     color: orange;
 }
 
-#yellow {
+.yellow {
     color: yellow;
 }
 
-#green {
+.green {
     color: green;
 }
 
-#blue {
+.blue {
     color: blue;
 }
 
@@ -114,9 +114,9 @@ li {
 }
 .secs {
   background-color: rgb(209, 247, 215);
-  padding: 20px;
-  margin: 10px;
+  padding: 12px;
   border-radius: 12px;
+  border: 1px solid #c0eacb; /* soft green border */
 }
 
 @media (max-width: 600px) {
